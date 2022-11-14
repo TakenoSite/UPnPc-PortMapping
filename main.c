@@ -73,7 +73,7 @@ int main(int argc, char* argv[]){
 					return -1;
 				};
 
-				break;
+				return 0
 			case 'l':
 				puts("get_port_mapping \n+++++++++++++++\n");
 				get_port_mapping();
