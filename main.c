@@ -83,7 +83,6 @@ int main(int argc, char* argv[]){
 				get_external_ip_address();
 				return 0;
 			default:
-				puts("error");
 				return 0;
 		}
 
